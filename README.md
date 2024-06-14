@@ -1,64 +1,45 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p><span style="font-size:20px"><strong>How to setup the project locally</strong></span></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<ul>
+	<li>Go to the GitHub repository of the Laravel project you want to clone.</li>
+	<li>Click on the &quot;Code&quot; button and copy the URL provided.</li>
+	<li>Open your terminal or command prompt.</li>
+	<li>Navigate to the directory where you want to store the project.</li>
+	<li>Use the <code>git clone</code> command followed by the URL you copied. For example:</li>
+</ul>
 
-## About Laravel
+<p><strong>git clone https://github.com/username/project-name.git</strong></p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<ul>
+	<li>Navigate into the project directory using the <code>cd</code> command.</li>
+	<li>Once inside the project directory, run the following command to install the project dependencies using Composer:</li>
+</ul>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<p><strong>composer install</strong></p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<p>You can start the server by running the following command: php artisan serve</p>
 
-## Learning Laravel
+<p>&nbsp;</p>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<p><strong><span style="font-size:16px">Any assumptions or decisions made during the development</span></strong></p>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<ul>
+	<li>In the features section, I presumed that cards were exclusively implemented in the desktop version, while the mobile version was represented by a PNG file. As it turns out, this assumption precisely matches their approach.</li>
+    	<li>To ensure compatibility with Vercel, the HTML and CSS version of the code was deployed. Vercel does not support the direct deployment of Laravel projects. Consequently, a separate repository was established specifically for the Laravel project.</li>
+</ul>
 
-## Laravel Sponsors
+<p>&nbsp;</p>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<p><span style="font-size:18px"><strong>Challenges</strong></span></p>
 
-### Premium Partners
+<ul>
+	<li>It was difficult to download the background bubble video.</li>
+	<li>Creating the rotating cards was also a problem but if I had enough time, it is possible.</li>
+</ul>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+<p><span style="font-size:18px"><strong>Solutions</strong></span></p>
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<ul>
+	<li>With painstaking effort, I created the sections.</li>
+	<li>I added the map but couldn't add the glowing and animation on it because it involves three.js which is not part of my stack but I am willing to learn three.js if given the oppurtunity to work at Tripcel.</li>
+</ul>
