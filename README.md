@@ -8,7 +8,7 @@
 	<li>Use the <code>git clone</code> command followed by the URL you copied. For example:</li>
 </ul>
 
-<p><strong>git clone https://github.com/username/project-name.git</strong></p>
+<p><strong>git clone https://github.com/fawole141/tripcel22.git</strong></p>
 
 <ul>
 	<li>Navigate into the project directory using the <code>cd</code> command.</li>
